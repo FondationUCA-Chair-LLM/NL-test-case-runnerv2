@@ -11,16 +11,6 @@ See paper available here : ****
 
 ## Tools
 
-### 1. Eval-Agent
-Eval-Agent is specialised for evaluating the reliability of an LLM agent.  
-For a given agent, it computes three standard deviation scores:  
-
-- `σ(agent_readiness)`
-- `σ(agent_nav)`  
-- `σ(agent_assert)`  
-
-These scores assess the capabilities of the LLM agent across three core tasks: readiness, navigation, and assertion.  
-
 **How it works:**  
 - Takes a test suite and runs it `N` times.  
 - Computes standard deviations for the three tasks.  
